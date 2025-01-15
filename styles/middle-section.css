@@ -1,0 +1,78 @@
+.Explore-the-coffee {
+  color: #9F583C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: #9F583C;
+  border-style: solid;
+  border-width: 5px;
+  margin-top: -4px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.middle-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px 40px 30px 40px;
+}
+
+.coffee-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #C08267;
+  padding: 40px 25px 40px 25px;
+  border-radius: 25px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.7);
+}
+
+.coffee-image {
+  max-width: 250px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.coffee-name {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.coffee-detail {
+  font-size: 13px;
+  max-width: 250px;
+  margin-bottom: 20px;
+  color: #FFFADA;
+}
+
+.coffee-order {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coffee-price {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.coffee-order-button {
+  background-color: #A0583C;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.brand-image-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 40px 30px 40px;
+}

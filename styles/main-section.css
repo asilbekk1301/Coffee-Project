@@ -1,0 +1,125 @@
+.main-section-background {
+  background-image: url("../images/coffee-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 25px 25px 25px 25px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  align-items: center;
+  height: 50px;
+}
+
+.header-left-section {
+  color: white;
+  font-weight: 500;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.header-left-section:hover {
+  color: white;
+  font-size: 25px;
+  background-color: #C08267;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+}
+
+.header-middle-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  max-width: 491px;
+}
+
+.header-middle-item {
+  color: white;
+  font-weight: 500px;
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.header-middle-item:hover {
+  color: white;
+  font-size: 25px;
+  background-color: #C08267;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px; 
+}
+
+.header-right-section {
+  display: flex;
+  padding-right: 10px;
+}
+
+.sign-button,
+.app-button {
+  background-color: rgb(159, 88, 60);
+  color: white;
+  border: none;
+  padding: 10px 15px 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.sign-button {
+  margin-right: 10px; 
+}
+.app-button {
+  margin-left: 10px;
+}
+
+.middle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100%;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-heading {
+  color: #FFFADA;
+  font-size: 70px;
+  font-weight: 600;
+  font-family: Outfit, Arial;
+  transition: 0.5s;
+}
+.middle-heading:hover {
+  font-size: 90px;
+}
+
+.middle-description {
+  color: #CCB9B1;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.middle-button {
+  background-color: rgb(159, 88, 60);
+  color: white;
+  border: none;
+  padding: 15px 30px 15px 30px;
+  border-radius: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.middle-button:hover {
+  font-size: 26px;
+  padding: 25px 40px 25px 40px;
+}

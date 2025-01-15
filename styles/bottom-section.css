@@ -1,0 +1,46 @@
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #C08267;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-in-touch {
+  padding-top: 10px;
+  color: #FFFADA;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  line-height: 2.5;
+  color: white;
+  width: 80%;
+}
+
+.merchandise,
+.franchise,
+.about-us,
+.follow-us {
+  padding: 20px 20px 20px 20px;
+  font-size: 18px;
+}
+
+.contact-info-item-main {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.flitro {
+  padding-left: 3px;
+  font-weight: 600;
+}
